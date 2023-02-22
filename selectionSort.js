@@ -1,3 +1,8 @@
+/*---------SELECTION SORT----------*/
+/*
+ * Time Complexity = O(n^2)
+ * Space Complexity = O(1)
+ */
 var selectionSort = function (arr) {
   let arrLength = arr.length; // to avoid calculating everytime while looping
   if (arrLength > 1) {
