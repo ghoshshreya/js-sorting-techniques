@@ -1,5 +1,8 @@
 /*---------SELECTION SORT----------*/
 /*
+ * Algo -
+ * 1. Find the minimum element in the unsorted array and swap it with the element at the beginning.
+ * The inner loop selects the minimum element in the unsorted array
  * Time Complexity = O(n^2)
  * Space Complexity = O(1)
  */
