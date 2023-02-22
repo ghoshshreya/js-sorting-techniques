@@ -23,4 +23,12 @@ var selectionSort = function (arr) {
   return arr;
 };
 
-console.log(selectionSort([8, 0, 1, 7, 6]));
+let unsortedArr = [8, 0, 1, 7, 6];
+console.log(
+  'Selection Sort --->',
+  'Before Sorting',
+  unsortedArr,
+  '::',
+  'After Sorting',
+  selectionSort([8, 0, 1, 7, 6])
+);
